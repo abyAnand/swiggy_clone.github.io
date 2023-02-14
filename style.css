@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+ }
+ .main{
+    display: flex;
+    
+ }
+ .main .left{
+    margin-top: 77px;
+ }
+ .main .left nav img{
+    width: 30%;
+ }
+ .main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ }
+
+ .left nav button{
+     color: black;
+     background-color: transparent;
+     border: none;
+     margin-inline:15px ;
+     margin-top: 5px;
+     font-size: 20px;
+
+ }
+
+.main .left .txt{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.left .txt h1{
+    font-size: 50px;
+}
+.left .txt p{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.left .txt .inp{
+    display: flex;
+    margin-top: 20px;
+}
+.left .txt input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(241, 76, 16);
+    border-right: none;
+    padding: 10px;
+     
+}
+.left .txt .inp button{
+     width: 120px;
+     background-color: rgb(237, 74, 15);
+     border: none;
+     font-size: 20px;
+     color: white;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #2B1E16;
+    text-align: center;
+    color: white;
+    padding: 44px;
+}
+.card .crd img{
+    width: 35%;
+}
+.rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.rest img{
+    width: 32%;
+}
+.rest .text{
+    margin-top: 84px;
+}
+.rest .text h1{
+    font-size: 44px;
+}
+.rest .text p{
+    margin-top: 11px;
+}
+.rest .text img{
+    margin-top: 22px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+}
+
+.footer .list img{
+    width: 53%;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 11px;
+}
+
+.main .left .sign-up{
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 2rem;
+    color: #000;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #000;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+
+.footer .list h2{
+        color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.last-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.last-footer .list .heading{
+color: gray;
+width: 100%;
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-left: 170px;
+    background-color: black;
+    color: grey;
+    
+}
+
+.heading h2{
+color: gray;
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.last-footer .list p{
+    padding: 10px;
+}
+
